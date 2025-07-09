@@ -43,12 +43,16 @@
 }
 
 /* Style the search box */
+.Search-bar {
+    margin: 10px 10px;
+}
+
 #mySearch {
-  width: 100%;
+  width: 90%;
   font-size: 18px;
   padding: 11px;
   border: 1px solid #ddd;
-  margin: 0px 20px 0px 20px;
+  margin: 10px;
 }
 
 #myMenu {
@@ -61,10 +65,16 @@
 #myMenu li a {
   padding: 12px;
   text-decoration: none;
-  color: black;
+  color: #57b8be;
   display: block
 }
 
 #myMenu li a:hover {
   background-color: #eee;
+}
+
+/*Styling the main content*/
+
+.main-content {
+    margin: 20px;
 }
