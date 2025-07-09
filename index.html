@@ -6,6 +6,7 @@
     <title>TravelBloom</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="travelBloom.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,9 +18,16 @@
                 <a href="#index.html" class="active">Home</a>
                 <a href="#about_us.html">About Us</a>
                 <a href="#contact_us.html">Contact Us</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+            </div>
+
+            <div class="Search-bar">
+                <input type="text" id="mySearch" onkeyup="handleSearch()" placeholder="Search.." title="Type in a category">
+
+                <ul id="myMenu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
             </div>
         </div>
     </header>

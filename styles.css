@@ -1,4 +1,4 @@
-/* Add a black background color to the top navigation */
+
 .topnav {
   background-color: #152636;
   overflow: hidden;
@@ -14,7 +14,6 @@
     margin: 0px 0px;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -27,21 +26,45 @@
   margin: 0px 5px;
 }
 
-/* Change the color of links on hover */
 .topnav .nav-links a:hover {
   background-color: #57b8be;
   border-radius: 20px;
   color: black;
 }
 
-/* Add an active class to highlight the current page */
 .topnav a.active {
   background-color: #57b8be;
   border-radius: 20px;
   color: black;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+  margin: 0px 20px 0px 20px;
+}
+
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
 }
