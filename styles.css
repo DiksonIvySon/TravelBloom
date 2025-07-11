@@ -78,3 +78,40 @@
 .main-content {
     margin: 20px;
 }
+
+.main-content .home-section img {
+    max-height: 300px;
+    border-radius: 0rem 0rem 100rem 0rem;
+    object-fit: cover;
+}
+
+.recommendations-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.recommendations-container > div {
+    flex: 1;
+}
+
+.recommendations-container .card img {
+    object-fit: contain;
+}
+
+.recommendations-container .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.recommendations-container .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.recommendations-container .container {
+  padding: 2px 16px;
+}
