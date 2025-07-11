@@ -163,6 +163,77 @@
   top: 0;
 }
 
+/*Styling the contact page*/
+.contact-section {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #152636;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-section p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #152636;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #152636;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #57b8be;
+}
+
 /* Styling the footer */
 footer {
     text-align: center;
